@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/v1/trial")
 public class DemoController {
 
-    @GetMapping
+    @GetMapping("/demo")
     public ResponseEntity<String> HelloWorld(){
         return ResponseEntity.ok("Java Security Implementation with JWT");
     }
